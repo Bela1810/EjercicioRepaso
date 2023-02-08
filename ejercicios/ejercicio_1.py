@@ -1,5 +1,5 @@
 if __name__ == "__main__":
     name = input("Enter your name: ")
-    last_name= input("Enter your last name: ")
+    age= input("Enter your age: ")
 
-    print("Hello", name , last_name)
+    print("Hello", name , "your age is" , age)
