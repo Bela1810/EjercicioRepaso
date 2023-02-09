@@ -1,5 +1,6 @@
 if __name__ == "__main__":
+    print("PROGRAM TO ENTER YOUR NAME AND AGE")
     name = input("Enter your name: ")
-    age = input("Enter your age: ")
+    age= input("Enter your age: ")
 
     print(f"Hello {name}, You are {age} years old")
