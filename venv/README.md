@@ -1,3 +1,3 @@
 # Ejercicios de Repaso
 
-Eje rcicios de repaso programación orientada a objetos 
+Este repositorio contiene ejercicios basicos de progrmación en python
