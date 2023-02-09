@@ -1,13 +1,14 @@
 if __name__ == "__main__":
+    print("PROGRAM TO CALCULATE THE AREA OF A CIRCLE")
     import math
 
-    radio = int(input("Ingrese el radio del circulo: "))
+    radio = int(input("Enter the radio: "))
     pi = math.pi
 
-    def area_circulo():
+    def circle_area():
         area = pi * (radio * radio)
         return area
 
-    area_circulo()
+    circle_area()
 
-    print(f"el area del circulo es: {area_circulo()}")
+    print(f"el area del circulo es: {circle_area()}")

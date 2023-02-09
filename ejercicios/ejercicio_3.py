@@ -1,11 +1,12 @@
 if __name__ == "__main__":
 
+    print("PROGRAM TO GENERATE RANDOM NUMBERS")
     import random
-    numeros_generados = int(input("Ingrese cuantos numeros desea generar: "))
-    num_1= int(input("Ingrese el primer número: "))
-    num_2= int(input("Ingrese el segundo número: "))
+    generate_numbers = int(input("Enter how many numbers do you want to generate: "))
+    num_1= int(input("Enter the first number: "))
+    num_2= int(input("Enter the second number: "))
 
-    print(f"se van a generar números entre {num_1} y {num_2}")
+    print(f"Numbers will be generated {num_1} and {num_2}")
 
-    for x in range(numeros_generados):
+    for x in range(generate_numbers):
         print(random.randint(num_1,num_2))
