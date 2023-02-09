@@ -1,1 +1,1 @@
-import ejercicios.ejercicio_1
+import ejercicios.ejercicio_2
